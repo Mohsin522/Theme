@@ -13,7 +13,7 @@ const FilteredProduct = ({value, product , onSearch}) => {
             const price=items.price.toString().toLowerCase();
 
             return searchKey && title !=searchKey && title.includes(searchKey) 
-        }).slice(0,10).map((item)=>(
+        }).slice(0,20).map((item)=>(
             <div className='col-4'>
                 <div className='product_card' key={item.id} >
                 <div className='img'>
