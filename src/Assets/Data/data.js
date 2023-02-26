@@ -149,7 +149,7 @@ export const hero = [
   export const topProducts = [
     {
       id: 20,
-      cover: "../images/product/7-1-1.jpg",
+      cover: Pro1,
       title: "Floating 2021 iPhone 12 Mockups (PSD)",
       author: "by Blueskytechco in Mockups",
       price: "30.00",
@@ -158,7 +158,7 @@ export const hero = [
     },
     {
       id: 21,
-      cover: "../images/product/8-1.jpg",
+      cover: Pro2,
       title: "Floating 2021 iPhone 12 Mockups (PSD)",
       author: "by Blueskytechco in Mockups",
       price: "30.00",
@@ -167,7 +167,7 @@ export const hero = [
     },
     {
       id: 22,
-      cover: "../images/product/6-3.jpg",
+      cover: Pro3,
       title: "Floating 2021 iPhone 12 Mockups (PSD)",
       author: "by Blueskytechco in Mockups",
       price: "30.00",
@@ -177,7 +177,7 @@ export const hero = [
   
     {
       id: 23,
-      cover: "../images/product/5-1-1.jpg",
+      cover: Pro4,
       title: "Floating 2021 iPhone 12 Mockups (PSD)",
       author: "by Blueskytechco in Mockups",
       price: "30.00",
@@ -186,7 +186,7 @@ export const hero = [
     },
     {
       id: 24,
-      cover: "../images/product/4-3.jpg",
+      cover: Pro5,
       title: "Floating 2021 iPhone 12 Mockups (PSD)",
       author: "by Blueskytechco in Mockups",
       price: "30.00",
@@ -195,7 +195,7 @@ export const hero = [
     },
     {
       id: 25,
-      cover: "../images/product/3-1-1.jpg",
+      cover: Pro6,
       title: "Floating 2021 iPhone 12 Mockups (PSD)",
       author: "by Blueskytechco in Mockups",
       price: "30.00",
@@ -204,7 +204,7 @@ export const hero = [
     },
     {
       id: 26,
-      cover: "../images/product/1-1-1.jpg",
+      cover: Pro7,
       title: "Floating 2021 iPhone 12 Mockups (PSD)",
       author: "by Blueskytechco in Mockups",
       price: "30.00",
@@ -213,7 +213,7 @@ export const hero = [
     },
     {
       id: 27,
-      cover: "../images/product/2-1-1.jpg",
+      cover: Pro8,
       title: "Floating 2021 iPhone 12 Mockups (PSD)",
       author: "by Blueskytechco in Mockups",
       price: "30.00",

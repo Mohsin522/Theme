@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import Card from '../Card';
 import SearchIcon from '@mui/icons-material/Search';
 import FilteredProduct from '../FilteredProduct';
-import { Container,Row } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
 import { products } from '../../../Data/data';
 
 
@@ -24,8 +24,9 @@ const[value,setValue]=useState("");
               <input type='text' placeholder='Search Products...' onChange={onchange} value={value}></input>
               <button  onClick={()=>onSearch(value)}><SearchIcon /></button>
             </div>
-            <Row className='w-100'><FilteredProduct value={value} product={products} onSearch={onSearch} /></Row>  
             <p className='products_Example_text'>Example : Mockups, PSD, Themes Designs, Image</p>
+            <Row className='w-100'><FilteredProduct value={value} product={products} onSearch={onSearch} /></Row>  
+
             <Card></Card>
     </div>
   )

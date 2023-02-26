@@ -14,7 +14,7 @@ const FilteredProduct = ({value, product , onSearch}) => {
 
             return searchKey && title !=searchKey && title.includes(searchKey) 
         }).slice(0,20).map((item)=>(
-            <div className='col-4'>
+            <div className='col-12 col-md-4'>
                 <div className='product_card' key={item.id} >
                 <div className='img'>
                     <img src={item.cover}></img>
